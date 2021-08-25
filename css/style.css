@@ -8,18 +8,70 @@ h1 {
 }
 
 p {
-	border: 2px solid black;
-	background-color: #A52A2A;
+	border: 1px solid black;
+	background-color: gray;
 	height: 150px;
-	margin-right: auto;
-	margin-left: auto;
 	font-family: Helvetica;
-	color :white
+	color :black
 }
 
 #p1, #p2, #p3{
   margin : 10px
 }
+
+#p1-1, #p2-2, #p3-3 {
+  position: relative;
+  top: 30px;
+  
+}
+
+#t1 {
+border: 1px solid black;
+background-color: pink;
+height: 30px;
+width: 80px;
+text-align: center;
+position: relative;
+float : right;
+}
+
+#t2 {
+border: 1px solid black;
+background-color: darkred;
+height: 30px;
+width: 80px;
+text-align: center;
+position: relative;
+float : right;
+color: white;
+}
+
+#t3 {
+border: 1px solid black;
+background-color: lightyellow;
+height: 30px;
+width: 80px;
+text-align: center;
+position: relative;
+float : right;
+}
+
+/*#t2 {
+position: relative;
+border: 2px solid black;
+background-color: red;
+color : white;
+left: 65px;
+}
+
+#t3 {
+position: relative;
+border: 2px solid black;
+background-color: yellow;
+left: 65px;
+}*/
+
+
 
 
 
